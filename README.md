@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# 💊 MedClock – App de Lembrete de Medicamentos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O **MedClock** é um aplicativo móvel desenvolvido em **React Native com Expo**, projetado para ajudar usuários a gerenciar seus medicamentos, acompanhar doses, receber lembretes personalizados e manter o controle de seus estoques. Totalmente compatível com **iOS** e **Android**, o app oferece uma experiência fluida, segura e moderna.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Principais Funcionalidades
 
-   ```bash
-   npm install
-   ```
+- ✅ **Agendamento de Medicamentos** com lembretes personalizados
+- 🔄 **Controle de Reposição** com alertas de baixo estoque
+- 📱 **Compatibilidade entre plataformas** (iOS e Android)
+- 🔐 **Autenticação Biométrica** (Face ID / Touch ID)
+- 📈 **Acompanhamento Diário** com histórico de doses
+- 📅 **Integração com Calendário** para facilitar o planejamento
+- 🗂️ **Armazenamento Seguro** local com `AsyncStorage`
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ⚙️ Tecnologias Utilizadas
 
-In the output, you'll find options to open the app in a
+- **React Native** – Desenvolvimento mobile multiplataforma
+- **Expo** – Ferramentas e recursos nativos facilitados
+- **TypeScript** – Tipagem segura e escalabilidade
+- **React Navigation** – Navegação fluida entre telas
+- **Expo Notifications** – Sistema de notificações push
+- **AsyncStorage** – Persistência de dados local
+- **React Native Reanimated** – Animações suaves e modernas
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📚 Destaques do Projeto
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- ⏰ Sistema de lembretes personalizados para tomar medicamentos
+- 🧴 Rastreamento de estoque com alertas de baixa quantidade
+- 📊 Visualização de progresso diário com histórico completo
+- 🔐 Autenticação segura com biometria (Face ID / Touch ID)
+- 🌐 Totalmente compatível com **iOS** e **Android**
+- 🎨 Interface moderna, limpa e fácil de usar
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ▶️ Como rodar a aplicação 
+
+Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com), [Node](https://nodejs.org/en/), [Android Studio](https://developer.android.com/studio?hl=pt&gclid=Cj0KCQjwvLOTBhCJARIsACVldV3Ymb3yPN-YIX5Nzeccknkeb1_i2FL0SgJuNqle5xE3_3iFlCDwxTUaAo9uEALw_wcB&gclsrc=aw.ds) e  [Expo](https://docs.expo.dev/workflow/expo-cli/) instalados.
 
 ```bash
-npm run reset-project
+# Clonar este projeto
+$ git clone https://github.com/pvsmda/MedClock
+# Acessar a pasta
+$ cd MedClock
+# Instalar as dependências 
+$ npm install --legacy-peer-deps
+# Rodar o projeto
+$ npx expo start
+# A aplicação irá inicializar no dispositivo físico.
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 👨🏻‍💻 Deploy da Aplicação
 
-## Learn more
+<img src="https://github.com/pvsmda/MedClock/blob/main/assets/gif.gif?raw=true" alt="screenshot" width=300px height=600px/>
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📝 Licença
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
-## Join the community
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Made with
+💜 by <a href="https://github.com/pvsmda" target="_blank">Paulo Victor</a>
