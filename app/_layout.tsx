@@ -1,6 +1,9 @@
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 
+import { LogBox } from "react-native";
+
+LogBox.ignoreAllLogs(); // Desativa todos os warnings
 export default function Layout() {
   return (
     <>
@@ -14,44 +17,11 @@ export default function Layout() {
           navigationBarHidden: true,
         }}
       >
-        <Stack.Screen
-          name="index"
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="medications/add"
-          options={{
-            headerShown: false,
-            headerBackTitle: "",
-            title: "",
-          }}
-        />
-        <Stack.Screen
-          name="refills/index"
-          options={{
-            headerShown: false,
-            headerBackTitle: "",
-            title: "",
-          }}
-        />
-        <Stack.Screen
-          name="calendar/index"
-          options={{
-            headerShown: false,
-            headerBackTitle: "",
-            title: "",
-          }}
-        />
-        <Stack.Screen
-          name="history/index"
-          options={{
-            headerShown: false,
-            headerBackTitle: "",
-            title: "",
-          }}
-        />
+        <Stack.Screen name="index" />
+        <Stack.Screen name="medications/add" />
+        <Stack.Screen name="refills" />
+        <Stack.Screen name="calendar" />
+        <Stack.Screen name="history" />
       </Stack>
     </>
   );
